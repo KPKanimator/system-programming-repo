@@ -9,9 +9,9 @@
 
 int main(int argc, char **argv)
 {
-    int fd;
-    ssize_t len;
-    unsigned char *bytes;
+    int fd = 0;
+    ssize_t len = 0;
+    unsigned char *bytes = NULL;
 
     if (argc < 2)
     {
