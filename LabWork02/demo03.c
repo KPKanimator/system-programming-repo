@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    FILE *file = fopen("example3.txt" , "w");
+    FILE *file = fopen("demo03.txt" , "w");
     /* Запис рядка символiв у файл */
     fputs("This is string.", file);
     /* Змiна поточної позицiї на 9 байт вiдносно початку файлу */
