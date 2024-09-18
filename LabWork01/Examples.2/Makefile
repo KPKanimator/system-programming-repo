@@ -1,13 +1,13 @@
 # Makefile for hello
 
-hello: main.o pr2.о
-	cc -o hello main.o pr2.о
+hello: main.o pr2.o
+	cc -o hello main.o pr2.o
 
 hello.о: main.c
 	cc -c main.c
 
-pr2.c: pr2.c
-	cc -c pr2.с
+pr2.o: pr2.c
+	cc -c pr2.c
 
 clean:
 	rm -f *.o
